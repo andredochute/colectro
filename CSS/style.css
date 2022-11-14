@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@100;500&display=swap');
+
+body, html
+{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: #0D1B2A;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px 0 160px;
+    column-gap: 45%;
+    
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    column-gap: 35px;
+}
+.div_img{
+    background-color: white;
+    width: 9vw;
+    height: 8vw;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_img img{
+    width: 150px;
+    height: 150px;
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 35px;
+    margin-top:19px ;
+}
+.entrar{
+background-color: white;
+color: #415A77;
+border-radius: 8px;
+border: none;
+width: 140px;
+height: 50px;
+font-size: 25px;
+font-weight: bold;
+}
+.cadastrar{
+    background-color: #415A77;
+color: #ffffff;
+border-radius: 8px;
+border: none;
+width: 140px;
+height: 50px;
+font-size: 25px;
+font-weight: bold;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conferir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.conferir h1{
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+.button_conferir{
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 8px;
+    color: #415a77;
+    font-weight: bold;
+    border: none;
+
+}
+.SVG{
+    width: 600px;
+    height: 600px;
+}
