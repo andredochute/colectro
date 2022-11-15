@@ -21,6 +21,10 @@ header {
     column-gap: 45%;
 
 }
+button:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
 
 .right {
     display: flex;
@@ -29,7 +33,7 @@ header {
     column-gap: 35px;
 }
 
-.produtos a {
+.inicio a {
     color: white;
 }
 
@@ -81,47 +85,42 @@ header {
     transition: 500ms;
 
 }
-
-.container {
+.title{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
-
-.conferir {
+.pesquisa{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-
 }
-
-.conferir h1 {
-    color: aliceblue;
-    font-size: 50px;
-
+.div_pesquisar{
+    background-color: #415A77;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    font-size: 15px;
 }
-
-.button_conferir {
-    width: 250px;
-    height: 60px;
-    font-size: 30px;
-    border-radius: 8px;
-    color: #415a77;
-    font-weight: bold;
+.class_filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    column-gap: 5px;
+    padding: 15px 165px 0 0;
+}
+.input_estabelecimentos {
+    background-color: white;
     border: none;
-    transition: 500ms;
-
-}
-button:hover{
-    transform: scale(1.1);
-    transition: 500ms;
-}
-
-.button_conferir a {
-    color: #415a77;
-}
-
-.SVG {
-    width: 600px;
-    height: 600px;
-}
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    height: 15px;
+    font-size: 15px;
+    color: black;
+    padding: 10px 0 10px 10px;
+  }
